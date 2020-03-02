@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    background: #777;
+}
+
+.footer-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.copyright {
+    text-align: center;
+    font-size: .9rem;
+    color: #e4e4e4;
+}

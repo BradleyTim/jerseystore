@@ -1,0 +1,35 @@
+.jersey-card {
+    padding: .5rem;
+    text-align: center;
+    /* box-shadow: 2px 5px 5px #e4e4e4; */
+}
+
+.jersey-image {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.best-seller {
+    display: inline-block;
+    background: orange;
+    color: #e4e4e4;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    margin-top: .25rem;
+    padding: .125rem;
+}
+
+.jersey-title {
+    margin-top: -0.015rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444;
+}
+
+.jersey-price {
+    margin-top: -0.15rem;
+    font-size: 1.15rem;
+    color: skyblue;
+    font-weight: 700;
+}
