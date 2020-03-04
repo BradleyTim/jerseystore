@@ -1,6 +1,6 @@
 ## About the App
 
-This is an online front-end app in ReactJs
+This is an online front-end app in ReactJs. Find the live app here [https://jerseystore.now.sh](https://jerseystore.now.sh)
 
 ## Available Scripts
 
