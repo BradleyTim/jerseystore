@@ -5,16 +5,10 @@
   box-sizing: 0;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  /* align-items: space-between; */
 }
 
 .container {
   width: 90%;
   margin: auto;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
 }
