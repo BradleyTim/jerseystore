@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 //components
-import { Jersey } from '../../components/jerseys/Jersey';
+import { Jerseys } from '../../components/jerseys/Jerseys';
 
 const initialState = [
     {
@@ -61,10 +61,11 @@ const initialState = [
 ];
 
 export const Home = () => {
+    const [jerseys, setJerseys] = useState(initialState);
     return (
         <div className="home-page grid-container">
-            {initialState.map(jersey => {
-                return <Jersey jersey={jersey} key={jersey.id} />
+            {jerseys.map(jersey => {
+                return <Jerseys jersey={jersey} key={jersey.id} />
             })}
         </div>
     )
