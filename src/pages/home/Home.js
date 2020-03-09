@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 //components
 import { Jerseys } from '../../components/jerseys/Jerseys';
@@ -61,7 +61,16 @@ const initialState = [
 ];
 
 export const Home = () => {
-    const [jerseys, setJerseys] = useState(initialState);
+    const [jerseys, setJerseys] = useState([]);
+
+    useEffect(() => {
+        // fetch('../../jerseys.json')
+        //     .then(res  => res.json())
+        //     .then(data => console.log(data))
+        //     .catch(error => console.log(error));
+        setJerseys(initialState);
+    }, [])
+
     return (
         <div className="home-page grid-container">
             {jerseys.map(jersey => {

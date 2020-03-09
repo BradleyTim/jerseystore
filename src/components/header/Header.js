@@ -4,7 +4,7 @@ import './Header.css';
 
 export const Header = () => {
     return (
-        <header>
+        <header className="sticky">
             <nav className="nav-bar">
                 <h2 className="brand">
                     <Link className="title-link" to="/">Season Stock</Link>

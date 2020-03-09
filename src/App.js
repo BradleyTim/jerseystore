@@ -17,9 +17,11 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="container">
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+        <div className="container mt">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+          </Switch>
         </div>
         <Footer />
       </div>
