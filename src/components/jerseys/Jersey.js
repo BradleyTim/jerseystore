@@ -1,7 +1,7 @@
 import React from 'react';
-import './Jerseys.css';
+import './Jersey.css';
 
-export const Jerseys = ({ jersey }) => {
+export const Jersey = ({ jersey }) => {
     return (
         <div className="jersey-card">
             <img className="jersey-image" src={jersey.image} alt="Jersey" />
