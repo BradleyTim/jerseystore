@@ -1,3 +1,7 @@
+.link {
+    text-decoration: none;
+}
+
 .jersey-card {
     padding: .5rem;
     text-align: center;

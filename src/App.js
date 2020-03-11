@@ -5,6 +5,7 @@ import './App.css';
 //pages
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
+import { JerseyDetailView } from './pages/jersey/JerseyDetailView';
 
 //components
 import { Header } from './components/header/Header';
@@ -21,6 +22,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/jerseys/:id" component={JerseyDetailView} />
           </Switch>
         </div>
         <Footer />
