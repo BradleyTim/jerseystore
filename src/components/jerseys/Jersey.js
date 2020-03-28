@@ -6,9 +6,9 @@ export const Jersey = ({ jersey }) => {
     return (
         <Link className="link" to="/jerseys/{jersey.id}">
             <div className="jersey-card">
-                <img className="jersey-image" src={jersey.image} alt="Jersey" />
+                <img className="jersey-image" src={jersey.image_url} alt="Jersey" />
                 <div className="best-seller">BEST SELLER</div>
-                <h3 className="jersey-title">{jersey.brand} {jersey.kit} kit</h3>
+                <h3 className="jersey-title">{jersey.name} {jersey.kit} kit</h3>
                 <p className="jersey-price">Ksh. {jersey.price}</p>
             </div>
         </Link>
